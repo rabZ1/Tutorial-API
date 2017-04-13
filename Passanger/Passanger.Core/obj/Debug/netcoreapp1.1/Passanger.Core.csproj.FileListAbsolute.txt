@@ -1,6 +1,7 @@
 C:\PassangerAPI\Passanger\Passanger.Core\bin\Debug\netcoreapp1.1\Passanger.Core.deps.json
-C:\PassangerAPI\Passanger\Passanger.Core\obj\Debug\netcoreapp1.1\Passanger.Core.AssemblyInfo.cs
 C:\PassangerAPI\Passanger\Passanger.Core\bin\Debug\netcoreapp1.1\Passanger.Core.dll
 C:\PassangerAPI\Passanger\Passanger.Core\bin\Debug\netcoreapp1.1\Passanger.Core.pdb
+C:\PassangerAPI\Passanger\Passanger.Core\obj\Debug\netcoreapp1.1\Passanger.Core.AssemblyInfo.cs
 C:\PassangerAPI\Passanger\Passanger.Core\obj\Debug\netcoreapp1.1\Passanger.Core.dll
 C:\PassangerAPI\Passanger\Passanger.Core\obj\Debug\netcoreapp1.1\Passanger.Core.pdb
+C:\PassangerAPI\Passanger\Passanger.Core\obj\Debug\netcoreapp1.1\Passanger.Core.csprojResolveAssemblyReference.cache
