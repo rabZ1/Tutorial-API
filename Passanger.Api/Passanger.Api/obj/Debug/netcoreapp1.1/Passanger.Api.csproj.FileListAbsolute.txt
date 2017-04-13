@@ -1,9 +1,0 @@
-c:\PassangerAPI\Passanger.Api\Passanger.Api\bin\Debug\netcoreapp1.1\Passanger.Api.deps.json
-c:\PassangerAPI\Passanger.Api\Passanger.Api\bin\Debug\netcoreapp1.1\Passanger.Api.runtimeconfig.json
-c:\PassangerAPI\Passanger.Api\Passanger.Api\bin\Debug\netcoreapp1.1\Passanger.Api.runtimeconfig.dev.json
-c:\PassangerAPI\Passanger.Api\Passanger.Api\bin\Debug\netcoreapp1.1\Passanger.Api.dll
-c:\PassangerAPI\Passanger.Api\Passanger.Api\bin\Debug\netcoreapp1.1\Passanger.Api.pdb
-c:\PassangerAPI\Passanger.Api\Passanger.Api\obj\Debug\netcoreapp1.1\Passanger.Api.csprojResolveAssemblyReference.cache
-c:\PassangerAPI\Passanger.Api\Passanger.Api\obj\Debug\netcoreapp1.1\Passanger.Api.AssemblyInfo.cs
-c:\PassangerAPI\Passanger.Api\Passanger.Api\obj\Debug\netcoreapp1.1\Passanger.Api.dll
-c:\PassangerAPI\Passanger.Api\Passanger.Api\obj\Debug\netcoreapp1.1\Passanger.Api.pdb
