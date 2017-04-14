@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Passanger.Infrastucture.Services;
 using Passanger.Core.Repositories;
 using Passanger.Infrastracture.Repositories;
+using Passanger.Infrastucture.Mappers;
 
 namespace Passagner.Api
 {
@@ -34,6 +35,7 @@ namespace Passagner.Api
             services.AddMvc();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddSingleton(AutoMapperConfig.Initialize());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

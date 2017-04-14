@@ -1,0 +1,13 @@
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Api.deps.json
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Api.runtimeconfig.json
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Api.runtimeconfig.dev.json
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Api.dll
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Api.pdb
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Core.dll
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.dll
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.pdb
+C:\PassangerAPI\Passanger\Passagner.Api\bin\Debug\netcoreapp1.1\Passanger.Core.pdb
+C:\PassangerAPI\Passanger\Passagner.Api\obj\Debug\netcoreapp1.1\Passanger.Api.csprojResolveAssemblyReference.cache
+C:\PassangerAPI\Passanger\Passagner.Api\obj\Debug\netcoreapp1.1\Passanger.Api.AssemblyInfo.cs
+C:\PassangerAPI\Passanger\Passagner.Api\obj\Debug\netcoreapp1.1\Passanger.Api.dll
+C:\PassangerAPI\Passanger\Passagner.Api\obj\Debug\netcoreapp1.1\Passanger.Api.pdb

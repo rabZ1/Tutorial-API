@@ -4,34 +4,31 @@ using System.Text;
 using Passanger.Core.Repositories;
 using Passanger.Core.Domain;
 using Passanger.Infrastucture.DTO;
+using AutoMapper;
+using System.Threading.Tasks;
 
 namespace Passanger.Infrastucture.Services
 {
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, IMapper mapper)
         {
             _userRepository = userRepository;
+            _mapper = mapper;
         }
 
-        public UserDto Get(string email)
+        public async Task<UserDto> GetAsync(string email)
         {
-            var user = _userRepository.Get(email);
-            return new UserDto
-            {
-                Id = user.Id,
-                Email = user.Email,
-                Username = user.Username,
-                FullName = user.FullName,
-                CreatedAt = DateTime.UtcNow
-            };
+            var user = await _userRepository.GetAsync(email);
+            return _mapper.Map<User, UserDto>(user);
         }
 
-        public void Register(string email, string password, string username)
+        public async Task RegisterAsync(string email, string password, string username)
         {
-            var user = _userRepository.Get(email);
+            var user = await _userRepository.GetAsync(email);
             if(user != null)
             {
                 throw new Exception($"Uzytkownik z kontem email '{email}' istnieje.");
@@ -40,7 +37,7 @@ namespace Passanger.Infrastucture.Services
             var salt = Guid.NewGuid().ToString("N");
             user = new User(email, password, salt, username);
 
-            _userRepository.Add(user);
+            await _userRepository.AddAsync(user);
         }
     }
 }
