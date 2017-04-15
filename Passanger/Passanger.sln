@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passagner.Api", "Passagner.Api\Passagner.Api.csproj", "{C8A626F9-BD1E-43BD-9A90-BB1072286BA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passanger.Api", "Passagner.Api\Passanger.Api.csproj", "{C8A626F9-BD1E-43BD-9A90-BB1072286BA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passanger.Core", "Passanger.Core\Passanger.Core.csproj", "{352925DB-7696-45C4-B95D-ED6685A5CA78}"
 EndProject
