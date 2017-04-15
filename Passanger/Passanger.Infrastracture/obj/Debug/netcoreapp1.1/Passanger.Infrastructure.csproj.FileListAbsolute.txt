@@ -1,0 +1,9 @@
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.deps.json
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.dll
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.pdb
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\bin\Debug\netcoreapp1.1\Passanger.Core.dll
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\bin\Debug\netcoreapp1.1\Passanger.Core.pdb
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\obj\Debug\netcoreapp1.1\Passanger.Infrastructure.csprojResolveAssemblyReference.cache
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\obj\Debug\netcoreapp1.1\Passanger.Infrastructure.AssemblyInfo.cs
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\obj\Debug\netcoreapp1.1\Passanger.Infrastucture.dll
+C:\PassangerAPI\Passanger\Passanger.Infrastracture\obj\Debug\netcoreapp1.1\Passanger.Infrastucture.pdb

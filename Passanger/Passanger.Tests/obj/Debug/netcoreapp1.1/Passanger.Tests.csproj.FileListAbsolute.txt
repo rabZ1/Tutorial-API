@@ -6,6 +6,11 @@ C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Test
 C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Tests.runtimeconfig.dev.json
 C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Tests.dll
 C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Tests.pdb
+C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Core.dll
+C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.dll
+C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Core.pdb
+C:\PassangerAPI\Passanger\Passanger.Tests\bin\Debug\netcoreapp1.1\Passanger.Infrastucture.pdb
+C:\PassangerAPI\Passanger\Passanger.Tests\obj\Debug\netcoreapp1.1\Passanger.Tests.csprojResolveAssemblyReference.cache
 C:\PassangerAPI\Passanger\Passanger.Tests\obj\Debug\netcoreapp1.1\Passanger.Tests.AssemblyInfo.cs
 C:\PassangerAPI\Passanger\Passanger.Tests\obj\Debug\netcoreapp1.1\Passanger.Tests.dll
 C:\PassangerAPI\Passanger\Passanger.Tests\obj\Debug\netcoreapp1.1\Passanger.Tests.pdb
