@@ -38,7 +38,7 @@ namespace Passanger.Infrastracture.Repositories
 
         public async Task RemoveAsync(Guid id)
         {
-            var user = GetAsync(id);
+            var user = await GetAsync(id);
             _users.Remove(user);
             await Task.CompletedTask;
         }

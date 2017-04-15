@@ -10,27 +10,35 @@ using Passanger.Infrastucture.Commands.Users;
 namespace Passagner.Api.Controllers
 {
     [Route("[controller]")]
-    public class UserController : Controller
+    public class UsersController : Controller
     {
         private readonly IUserService _userService;
 
-        public UserController(IUserService userService)
+        public UsersController(IUserService userService)
         {
             _userService = userService;
         }
 
         // GET
         [HttpGet("{email}")]
-        public async Task<UserDto> Get(string email)
+        public async Task<IActionResult> Get(string email)
         {
-            return await _userService.GetAsync(email);
+            var user = await _userService.GetAsync(email);
+            if(user == null)
+            {
+                return NotFound();
+            }
+
+            return Json(user);
         }
 
         // POST
         [HttpPost("")]
-        public async Task Create([FromBody]CreateUser request)
+        public async Task<IActionResult> Create([FromBody]CreateUser request)
         {
             await _userService.RegisterAsync(request.Email, request.Password, request.Username);
+
+            return Created($"user/{request.Email}", new object());
         }
     }
 }
