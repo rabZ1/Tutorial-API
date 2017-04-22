@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Passanger.Infrastucture.Services;
 using Passanger.Infrastucture.DTO;
 using Passanger.Infrastucture.Commands.Users;
+using Passanger.Infrastucture.Commands;
 
 namespace Passagner.Api.Controllers
 {
@@ -13,10 +14,12 @@ namespace Passagner.Api.Controllers
     public class UsersController : Controller
     {
         private readonly IUserService _userService;
+        private readonly ICommandDispatcher _commandDispatcher;
 
-        public UsersController(IUserService userService)
+        public UsersController(IUserService userService, ICommandDispatcher commandDispatcher)
         {
             _userService = userService;
+            _commandDispatcher = commandDispatcher;
         }
 
         // GET
@@ -34,11 +37,11 @@ namespace Passagner.Api.Controllers
 
         // POST
         [HttpPost("")]
-        public async Task<IActionResult> Create([FromBody]CreateUser request)
+        public async Task<IActionResult> Create([FromBody]CreateUser command)
         {
-            await _userService.RegisterAsync(request.Email, request.Password, request.Username);
+            await _commandDispatcher.DispatchAsync(command);
 
-            return Created($"user/{request.Email}", new object());
+            return Created($"user/{command.Email}", new object());
         }
     }
 }

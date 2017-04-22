@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "7254c5c8cc191abea6e2616c45527c6da60fab80"
+    "signature": "4e44cc9d05fc348b3f8f9eddda99bf3ac038199d"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,10 +9,16 @@
       "passanger.infrastucture/1.0.0": {
         "dependencies": {
           "AutoMapper": "6.0.2",
+          "Autofac": "4.5.0",
           "Passanger.Core": "1.0.0"
         },
         "runtime": {
           "Passanger.Infrastucture.dll": {}
+        }
+      },
+      "autofac/4.5.0": {
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
         }
       },
       "automapper/6.0.2": {
@@ -64,6 +70,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "autofac/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5gf8q7r5UR4tpds5Ml4d5+vzVPQtSa/VxI7pc0MqLhI69mhvnmTpPfgBRDsaMryii9iVQUqSsMAz+y4R8oBjXw==",
+      "path": "autofac/4.5.0",
+      "hashPath": "autofac.4.5.0.nupkg.sha512"
     },
     "automapper/6.0.2": {
       "type": "package",

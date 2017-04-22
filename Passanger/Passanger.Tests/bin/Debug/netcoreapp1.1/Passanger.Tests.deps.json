@@ -1,13 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "b494c294a84380fab7d309ae29bcd29aec20fe91"
+    "signature": "fc7303f88dbff468db39e9cff6ba2035819a75d2"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "passanger.tests/1.0.0": {
         "dependencies": {
+          "Autofac": "4.5.0",
           "FluentAssertions": "4.19.2",
           "Microsoft.NET.Test.Sdk": "15.0.0",
           "Passanger.Core": "1.0.0",
@@ -18,6 +19,11 @@
         },
         "runtime": {
           "Passanger.Tests.dll": {}
+        }
+      },
+      "autofac/4.5.0": {
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
         }
       },
       "automapper/6.0.2": {
@@ -445,6 +451,7 @@
       "passanger.infrastucture/1.0.0": {
         "dependencies": {
           "AutoMapper": "6.0.2",
+          "Autofac": "4.5.0",
           "Passanger.Core": "1.0.0"
         },
         "runtime": {
@@ -458,6 +465,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "autofac/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5gf8q7r5UR4tpds5Ml4d5+vzVPQtSa/VxI7pc0MqLhI69mhvnmTpPfgBRDsaMryii9iVQUqSsMAz+y4R8oBjXw==",
+      "path": "autofac/4.5.0",
+      "hashPath": "autofac.4.5.0.nupkg.sha512"
     },
     "automapper/6.0.2": {
       "type": "package",

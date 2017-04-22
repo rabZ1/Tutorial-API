@@ -2,6 +2,19 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
+      "Autofac/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
       "AutoMapper/6.0.2": {
         "type": "package",
         "dependencies": {
@@ -3040,6 +3053,7 @@
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "AutoMapper": "6.0.2",
+          "Autofac": "4.5.0",
           "Microsoft.NETCore.App": "1.1.1",
           "Passanger.Core": "1.0.0"
         }
@@ -3047,6 +3061,19 @@
     }
   },
   "libraries": {
+    "Autofac/4.5.0": {
+      "sha512": "5gf8q7r5UR4tpds5Ml4d5+vzVPQtSa/VxI7pc0MqLhI69mhvnmTpPfgBRDsaMryii9iVQUqSsMAz+y4R8oBjXw==",
+      "type": "package",
+      "path": "autofac/4.5.0",
+      "files": [
+        "autofac.4.5.0.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
     "AutoMapper/6.0.2": {
       "sha512": "uI4uPyibgP4+2zn21fVqy0ep+eYeB5IcfjanyUESj+F0qcrOYpAW4iH2+xKET0vfhgJn4U1c4xN3stKUhygTmQ==",
       "type": "package",
@@ -8832,6 +8859,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Autofac >= 4.5.0",
       "FluentAssertions >= 4.19.2",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
       "Microsoft.NETCore.App >= 1.1.1",
@@ -8896,6 +8924,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "15.0.0"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "4.5.0"
           }
         }
       }

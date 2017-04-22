@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "6a1876cb0a6d3294004d7a27f78bb6edff52f5fa"
+    "signature": "6f61050ec62d252db9b6e32b6768f70dc1d2403b"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,8 @@
     ".NETCoreApp,Version=v1.1": {
       "passanger.api/1.0.0": {
         "dependencies": {
+          "Autofac": "4.5.0",
+          "Autofac.Extensions.DependencyInjection": "4.1.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.1",
           "Microsoft.AspNetCore.Mvc": "1.1.2",
@@ -41,6 +43,31 @@
         },
         "compile": {
           "Passanger.Api.dll": {}
+        }
+      },
+      "autofac/4.5.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "autofac.extensions.dependencyinjection/4.1.0": {
+        "dependencies": {
+          "Autofac": "4.5.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
         }
       },
       "automapper/6.0.2": {
@@ -1835,6 +1862,7 @@
       "passanger.infrastucture/1.0.0": {
         "dependencies": {
           "AutoMapper": "6.0.2",
+          "Autofac": "4.5.0",
           "Microsoft.NETCore.App": "1.1.1",
           "Passanger.Core": "1.0.0"
         },
@@ -3503,6 +3531,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "autofac/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5gf8q7r5UR4tpds5Ml4d5+vzVPQtSa/VxI7pc0MqLhI69mhvnmTpPfgBRDsaMryii9iVQUqSsMAz+y4R8oBjXw==",
+      "path": "autofac/4.5.0",
+      "hashPath": "autofac.4.5.0.nupkg.sha512"
+    },
+    "autofac.extensions.dependencyinjection/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gp94QkDxBLHaP8RnUWvtpIgOTVfIbw/wtxoV0YscI6iADQCFWn57jLYDuJnTSuZ75a6+MIXFEP2jbbTOnU01GQ==",
+      "path": "autofac.extensions.dependencyinjection/4.1.0",
+      "hashPath": "autofac.extensions.dependencyinjection.4.1.0.nupkg.sha512"
     },
     "automapper/6.0.2": {
       "type": "package",
