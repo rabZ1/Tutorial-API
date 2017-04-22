@@ -7,19 +7,18 @@ using Passanger.Infrastucture.Services;
 using Passanger.Infrastucture.DTO;
 using Passanger.Infrastucture.Commands.Users;
 using Passanger.Infrastucture.Commands;
+using Passanger.Api.Controllers;
 
 namespace Passagner.Api.Controllers
 {
-    [Route("[controller]")]
-    public class UsersController : Controller
+    public class UsersController : ApiControllerBase
     {
         private readonly IUserService _userService;
         private readonly ICommandDispatcher _commandDispatcher;
 
-        public UsersController(IUserService userService, ICommandDispatcher commandDispatcher)
+        public UsersController(IUserService userService, ICommandDispatcher commandDispatcher) : base(commandDispatcher)
         {
             _userService = userService;
-            _commandDispatcher = commandDispatcher;
         }
 
         // GET
@@ -39,9 +38,9 @@ namespace Passagner.Api.Controllers
         [HttpPost("")]
         public async Task<IActionResult> Create([FromBody]CreateUser command)
         {
-            await _commandDispatcher.DispatchAsync(command);
+            await CommandDispatcher.DispatchAsync(command);
 
-            return Created($"user/{command.Email}", new object());
+            return Created($"users/{command.Email}", new object());
         }
     }
 }
